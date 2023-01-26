@@ -75,6 +75,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'nilestore.wsgi.application'
 
+# To use custom user model
+
+AUTH_USER_MODEL = 'accounts.Account'
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
