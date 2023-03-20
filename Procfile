@@ -1,1 +1,1 @@
-wen: gunicorn nilestore.wsgi
+web: gunicorn nilestore.wsgi
